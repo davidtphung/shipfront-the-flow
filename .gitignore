@@ -1,0 +1,7 @@
+.DS_Store
+.playwright-mcp/
+agent-tools/
+*.log
+untitled-jobs-direction.png
+flow-home-desktop.png
+flow-home-mobile.png
