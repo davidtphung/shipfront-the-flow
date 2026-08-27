@@ -49,6 +49,7 @@
 html {
   scroll-behavior: auto;
   background: var(--sf-canvas);
+  overflow-x: hidden;
 }
 
 html.is-nav-open {
@@ -758,6 +759,7 @@ html.is-nav-open .nav-toggle-bars::after {
   border-block: 1px solid var(--sf-line);
   background: var(--sf-paper);
   overflow: hidden;
+  max-width: 100%;
 }
 
 .rail-track {
@@ -813,8 +815,14 @@ html.is-nav-open .nav-toggle-bars::after {
 .service {
   display: grid;
   gap: 22px;
+  min-width: 0;
   padding: clamp(48px, 8vw, 96px) 0;
   border-top: 1px solid var(--sf-line);
+}
+
+.service-copy,
+.service-visual {
+  min-width: 0;
 }
 
 .service:last-child {
@@ -831,10 +839,11 @@ html.is-nav-open .nav-toggle-bars::after {
 
 .service-title {
   margin: 0;
-  font-size: clamp(2rem, 4.6vw, 4rem);
+  font-size: clamp(1.7rem, 7.2vw, 4rem);
   font-weight: 500;
   letter-spacing: -0.04em;
   line-height: 0.95;
+  overflow-wrap: break-word;
 }
 
 .service-body {
