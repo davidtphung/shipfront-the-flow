@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fast &amp; Easy Quotes | Shipfront</title>
+    <meta
+      name="description"
+      content="Please take a moment to give us some information. We have expert agents standing by to take care of your logistics needs."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/flow.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to Content</a>
+
+    <header class="nav-root">
+      <div class="nav-shell" data-nav-shell>
+        <div class="nav-bar">
+          <a class="brand" href="../">
+            <svg class="brand-mark" viewBox="0 0 22 22" aria-hidden="true">
+              <path
+                d="M2 14c3.2-6.4 5.6-6.4 8 0s5.6 6.4 8 0"
+                fill="none"
+                stroke="#2468F2"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+              <circle cx="11" cy="7" r="1.6" fill="#42D5E8" />
+            </svg>
+            <span class="brand-name">Shipfront</span>
+            <span class="brand-edition">THE FLOW</span>
+          </a>
+          <nav aria-label="Primary">
+            <ul class="nav-links">
+              <li><a href="../">Home</a></li>
+              <li><a href="../get-a-quote/" aria-current="page">Get a Quote</a></li>
+              <li><a href="../contact/">Contact</a></li>
+            </ul>
+          </nav>
+          <a class="btn nav-cta" href="../get-a-quote/">Get a Quote</a>
+          <button
+            class="nav-toggle"
+            type="button"
+            data-nav-toggle
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+          >
+            <span class="visually-hidden">Open Menu</span>
+            <span class="nav-toggle-bars" aria-hidden="true"><span></span></span>
+          </button>
+        </div>
+      </div>
+      <div class="drawer" id="mobile-nav" data-drawer aria-hidden="true">
+        <nav aria-label="Mobile">
+          <ul class="drawer-links">
+            <li><a href="../" data-close-nav>Home</a></li>
+            <li><a href="../get-a-quote/" data-close-nav>Get a Quote</a></li>
+            <li><a href="../contact/" data-close-nav>Contact</a></li>
+          </ul>
+        </nav>
+        <a class="btn btn-full drawer-cta" href="../get-a-quote/" data-close-nav>Get a Quote</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <header class="page-hero">
+        <div class="wrap">
+          <h1>Fast &amp; Easy Quotes</h1>
+          <p>
+            Please take a moment to give us some information. We have expert agents standing by to
+            take care of your logistics needs.
+          </p>
+        </div>
+      </header>
+
+      <div class="wrap">
+        <form class="quote-panel quote-form" data-quote-form novalidate>
+          <p class="form-note">
+            Preview only. This form does not send a request. Submit shows the confirmation state on
+            this page.
+          </p>
+          <p class="form-error" data-form-error role="alert">
+            Name, Email, and Phone are required.
+          </p>
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Name <span class="req" aria-hidden="true">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone <span class="req" aria-hidden="true">*</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+            </div>
+            <div class="field">
+              <label for="company">Company Name</label>
+              <input id="company" name="company" type="text" autocomplete="organization" />
+            </div>
+            <div class="field">
+              <label for="website">Website</label>
+              <input id="website" name="website" type="text" autocomplete="url" />
+            </div>
+            <div class="field">
+              <label for="skus">Number of SKUs</label>
+              <input id="skus" name="skus" type="text" inputmode="numeric" />
+            </div>
+            <div class="field field-wide">
+              <label for="product">Product Description</label>
+              <textarea id="product" name="product" rows="4"></textarea>
+            </div>
+            <div class="field">
+              <label for="shipments">Shipments per Month</label>
+              <input id="shipments" name="shipments" type="text" inputmode="numeric" />
+            </div>
+            <div class="field">
+              <label for="turns">Turns per Month</label>
+              <input id="turns" name="turns" type="text" inputmode="numeric" />
+            </div>
+            <div class="field field-wide">
+              <label for="additional">Additional Information</label>
+              <textarea id="additional" name="additional" rows="4"></textarea>
+            </div>
+          </div>
+          <button class="btn" type="submit">Send</button>
+        </form>
+
+        <div class="quote-success" data-quote-success>
+          <p>Thank you for your interest, one of our agent will reach out to you shortly!</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-row">
+        <p>Built by David T Phung.</p>
+        <p><a href="../">Shipfront</a> · THE FLOW</p>
+      </div>
+    </footer>
+
+    <script src="../js/flow.js" defer></script>
+  </body>
+</html>
