@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shipfront | THE FLOW</title>
+    <meta
+      name="description"
+      content="Shipfront helps eCommerce merchants scale by taking care of their logistics needs, so that they can focus on growing their business."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/flow.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to Content</a>
+
+    <header class="nav-root">
+      <div class="nav-shell" data-nav-shell>
+        <div class="nav-bar">
+          <a class="brand" href="./" aria-current="page">
+            <svg class="brand-mark" viewBox="0 0 22 22" aria-hidden="true">
+              <path
+                d="M2 14c3.2-6.4 5.6-6.4 8 0s5.6 6.4 8 0"
+                fill="none"
+                stroke="#2468F2"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+              <circle cx="11" cy="7" r="1.6" fill="#42D5E8" />
+            </svg>
+            <span class="brand-name">Shipfront</span>
+            <span class="brand-edition">THE FLOW</span>
+          </a>
+          <nav aria-label="Primary">
+            <ul class="nav-links">
+              <li><a href="./" aria-current="page">Home</a></li>
+              <li><a href="get-a-quote/">Get a Quote</a></li>
+              <li><a href="contact/">Contact</a></li>
+            </ul>
+          </nav>
+          <a class="btn nav-cta" href="get-a-quote/">Get a Quote</a>
+          <button
+            class="nav-toggle"
+            type="button"
+            data-nav-toggle
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+          >
+            <span class="visually-hidden">Open Menu</span>
+            <span class="nav-toggle-bars" aria-hidden="true"><span></span></span>
+          </button>
+        </div>
+      </div>
+      <div class="drawer" id="mobile-nav" data-drawer aria-hidden="true">
+        <nav aria-label="Mobile">
+          <ul class="drawer-links">
+            <li><a href="./" data-close-nav>Home</a></li>
+            <li><a href="get-a-quote/" data-close-nav>Get a Quote</a></li>
+            <li><a href="contact/" data-close-nav>Contact</a></li>
+          </ul>
+        </nav>
+        <a class="btn btn-full drawer-cta" href="get-a-quote/" data-close-nav>Get a Quote</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <p class="hero-kicker">Warehousing &amp; Fulfillment Solutions</p>
+            <h1 class="hero-title">
+              <span class="hero-line">You Sell.</span>
+              <span class="hero-line">We Ship.</span>
+              <span class="hero-line hero-line-scale">eCommerce at Scale</span>
+            </h1>
+            <p class="hero-body">
+              Shipfront helps eCommerce merchants scale by taking care of their logistics needs, so
+              that they can focus on growing their business.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="get-a-quote/">Get a Quote</a>
+              <a class="btn btn-ghost" href="contact/">Contact</a>
+            </div>
+          </div>
+
+          <aside class="hero-flow" aria-hidden="true" data-hero-dock>
+            <div class="hero-flow-meta">
+              <span class="hero-index">01</span>
+              <span class="hero-flow-label">SHIPFRONT / FULFILLMENT FLOW</span>
+            </div>
+            <div class="hero-dock">
+              <div class="hero-spine"></div>
+              <ol class="hero-stations">
+                <li>
+                  <span class="station-dot"></span><span>ORDER</span><span class="station-tick">A-12</span>
+                </li>
+                <li>
+                  <span class="station-dot"></span><span>INVENTORY</span><span class="station-tick">B-07</span>
+                </li>
+                <li>
+                  <span class="station-dot"></span><span>PICK</span><span class="station-tick">C-03</span>
+                </li>
+                <li>
+                  <span class="station-dot"></span><span>PACK</span><span class="station-tick">D-18</span>
+                </li>
+                <li>
+                  <span class="station-dot"></span><span>SHIP</span><span class="station-tick">E-01</span>
+                </li>
+                <li>
+                  <span class="station-dot"></span><span>DELIVER</span><span class="station-tick">F-04</span>
+                </li>
+              </ol>
+              <div class="hero-packet"><span class="packet-box"></span></div>
+              <div class="hero-scan">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="hero-barcode">
+              <i style="height:90%"></i><i style="height:40%"></i><i style="height:100%"></i>
+              <i style="height:55%"></i><i style="height:80%"></i><i style="height:30%"></i>
+              <i style="height:95%"></i><i style="height:60%"></i><i style="height:45%"></i>
+              <i style="height:100%"></i><i style="height:35%"></i><i style="height:70%"></i>
+              <i style="height:88%"></i><i style="height:22%"></i><i style="height:64%"></i>
+              <i style="height:100%"></i><i style="height:48%"></i><i style="height:76%"></i>
+              <i style="height:28%"></i><i style="height:92%"></i><i style="height:50%"></i>
+            </div>
+            <p class="hero-coords">A-12 · B-07 · C-03 · D-18 · E-01 · F-04</p>
+          </aside>
+        </div>
+      </section>
+
+      <div class="rail" data-rail tabindex="0">
+        <div class="rail-track">
+          <p class="rail-seq">
+            <span>YOU SELL</span><span aria-hidden="true">/</span>
+            <span>WE SHIP</span><span aria-hidden="true">/</span>
+            <span>ORDER RECEIVED</span><span aria-hidden="true">/</span>
+            <span>INVENTORY READY</span><span aria-hidden="true">/</span>
+            <span>PICKED</span><span aria-hidden="true">/</span>
+            <span>PACKED</span><span aria-hidden="true">/</span>
+            <span>SHIPPED</span><span aria-hidden="true">/</span>
+            <span>DELIVERED</span><span aria-hidden="true">/</span>
+          </p>
+          <p class="rail-seq" aria-hidden="true">
+            <span>YOU SELL</span><span>/</span>
+            <span>WE SHIP</span><span>/</span>
+            <span>ORDER RECEIVED</span><span>/</span>
+            <span>INVENTORY READY</span><span>/</span>
+            <span>PICKED</span><span>/</span>
+            <span>PACKED</span><span>/</span>
+            <span>SHIPPED</span><span>/</span>
+            <span>DELIVERED</span><span>/</span>
+          </p>
+        </div>
+      </div>
+
+      <section class="services" aria-label="Services">
+        <div class="wrap">
+          <article class="service">
+            <div class="service-copy">
+              <p class="service-index">02</p>
+              <h2 class="service-title">WAREHOUSING</h2>
+              <p class="service-body">
+                Our warehouses provide the necessary space, security, temperature-control, and FDA
+                compliant capabilities to store your products before shipping them to customers. Our
+                inventory management system tracks all items across every SKU to know where they are
+                located, how long they have been there, and the quantity on hand. We actively
+                forecast inventory demand to keep your supply chain running optimally.
+              </p>
+            </div>
+            <div class="service-visual" aria-hidden="true">
+              <div class="shelf">
+                <b></b><b></b><b></b><b></b><b></b><b></b>
+                <b></b><b></b><b></b><b></b><b></b><b></b>
+                <b></b><b></b><b></b><b></b><b></b><b></b>
+              </div>
+            </div>
+          </article>
+
+          <article class="service is-flip">
+            <div class="service-copy">
+              <p class="service-index">03</p>
+              <h2 class="service-title">FULFILLMENT</h2>
+              <p class="service-body">
+                We build custom workflows to pick, pack, label, and ship your products exactly how
+                you would like. That means working with any carrier across traditional partners, as
+                well as the most innovative companies in last-mile and same-day delivery. We get
+                your products to your customers, quickly and accurately.
+              </p>
+              <ul class="caps">
+                <li>Inbound</li>
+                <li>Kitting</li>
+                <li>Storage</li>
+                <li>FBA Prep</li>
+                <li>Outbound</li>
+                <li>Last-Mile Delivery</li>
+                <li>Same-Day Delivery</li>
+              </ul>
+            </div>
+            <div class="service-visual" aria-hidden="true">
+              <div class="nodes">
+                <div class="node-card"><span>INBOUND</span><strong>Receive</strong></div>
+                <div class="node-card"><span>PICK</span><strong>Select</strong></div>
+                <div class="node-card"><span>PACK</span><strong>Label</strong></div>
+                <div class="node-card"><span>SHIP</span><strong>Release</strong></div>
+                <div class="node-card"><span>LAST-MILE</span><strong>Route</strong></div>
+                <div class="node-card"><span>SAME-DAY</span><strong>Hand off</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service-copy">
+              <p class="service-index">04</p>
+              <h2 class="service-title">ECOMMERCE INTEGRATIONS</h2>
+              <p class="service-body">
+                Shipfront is built on the Flowspace Warehouse Management System (WMS) - an
+                innovative software solution for managing the needs of today’s warehousing &amp;
+                fulfillment operations. Through the WMS, Shipfront integrates with partners across
+                the supply chain ecosystem - from eCommerce platforms to same-day delivery services.
+              </p>
+            </div>
+            <div class="service-visual" aria-hidden="true">
+              <div class="nodes">
+                <div class="node-card"><span>WMS</span><strong>Flowspace</strong></div>
+                <div class="node-card"><span>PLATFORM</span><strong>eCommerce</strong></div>
+                <div class="node-card"><span>CARRIER</span><strong>Same-day</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="service is-flip">
+            <div class="service-copy">
+              <p class="service-index">05</p>
+              <h2 class="service-title">LOCATION IS EVERYTHING</h2>
+              <p class="service-body">
+                Situated in downtown L.A., next to the 10, 110, and 101 freeways - Shipfront is
+                perfectly positioned to serve your eCommerce business. Not only do we inbound your
+                products efficiently, we also deliver them quickly to your customers through our
+                strong carrier and same-day delivery integrations.
+              </p>
+              <p class="service-aside">
+                Easy access to interstate freeways, courier depots, train stations, and airports
+              </p>
+            </div>
+            <div class="service-visual" aria-hidden="true">
+              <div class="freeway-ticks"><span>10</span><span>110</span><span>101</span></div>
+              <ul class="access">
+                <li>Interstate freeways</li>
+                <li>Courier depots</li>
+                <li>Train stations</li>
+                <li>Airports</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="journey" aria-labelledby="journey-title">
+        <div class="wrap">
+          <p class="journey-kicker">HOW FULFILLMENT FLOWS</p>
+          <h2 class="journey-title" id="journey-title">HOW FULFILLMENT FLOWS</h2>
+          <div class="journey-layout">
+            <div class="journey-visual">
+              <div class="journey-board" data-journey-board data-step="order">
+                <div class="journey-stage" data-panel="order">
+                  <p class="stage-label">01 ORDER</p>
+                  <div class="stage-art" aria-hidden="true">
+                    <span class="box box-a"></span>
+                    <span class="route"></span>
+                  </div>
+                </div>
+                <div class="journey-stage" data-panel="store">
+                  <p class="stage-label">02 STORE</p>
+                  <div class="stage-art" aria-hidden="true">
+                    <span class="box box-a"></span>
+                    <span class="box box-b"></span>
+                    <span class="box box-c"></span>
+                  </div>
+                </div>
+                <div class="journey-stage" data-panel="pick">
+                  <p class="stage-label">03 PICK</p>
+                  <div class="stage-art" aria-hidden="true">
+                    <span class="box box-b"></span>
+                    <span class="route"></span>
+                  </div>
+                </div>
+                <div class="journey-stage" data-panel="pack">
+                  <p class="stage-label">04 PACK</p>
+                  <div class="stage-art" aria-hidden="true">
+                    <span class="box box-c"></span>
+                    <span class="seal"></span>
+                  </div>
+                </div>
+                <div class="journey-stage" data-panel="ship">
+                  <p class="stage-label">05 SHIP</p>
+                  <div class="stage-art" aria-hidden="true">
+                    <span class="box box-a"></span>
+                    <span class="route"></span>
+                    <span class="seal"></span>
+                  </div>
+                </div>
+                <div class="journey-stage" data-panel="grow">
+                  <p class="stage-label">06 GROW</p>
+                  <div class="stage-art" aria-hidden="true">
+                    <span class="box box-b"></span>
+                    <span class="box box-c"></span>
+                    <span class="route"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ol class="journey-steps">
+              <li data-journey-step="order" class="is-active">
+                <button class="step-btn" type="button">
+                  <p class="step-num">01</p>
+                  <p class="step-name">ORDER</p>
+                </button>
+              </li>
+              <li data-journey-step="store">
+                <button class="step-btn" type="button">
+                  <p class="step-num">02</p>
+                  <p class="step-name">STORE</p>
+                </button>
+              </li>
+              <li data-journey-step="pick">
+                <button class="step-btn" type="button">
+                  <p class="step-num">03</p>
+                  <p class="step-name">PICK</p>
+                </button>
+              </li>
+              <li data-journey-step="pack">
+                <button class="step-btn" type="button">
+                  <p class="step-num">04</p>
+                  <p class="step-name">PACK</p>
+                </button>
+              </li>
+              <li data-journey-step="ship">
+                <button class="step-btn" type="button">
+                  <p class="step-num">05</p>
+                  <p class="step-name">SHIP</p>
+                </button>
+              </li>
+              <li data-journey-step="grow">
+                <button class="step-btn" type="button">
+                  <p class="step-num">06</p>
+                  <p class="step-name">GROW</p>
+                </button>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="ops" aria-labelledby="ops-title">
+        <div class="wrap">
+          <p class="ops-kicker">SHIPFRONT / OPERATIONS IN MOTION</p>
+          <h2 class="ops-title" id="ops-title">SHIPFRONT / OPERATIONS IN MOTION</h2>
+          <p class="ops-note">ILLUSTRATIVE FULFILLMENT FLOW</p>
+          <div class="ops-graph">
+            <span class="ops-path" aria-hidden="true"></span>
+            <button class="ops-node" type="button" data-ops-node aria-pressed="true">
+              Store
+              <span>01</span>
+            </button>
+            <button class="ops-node" type="button" data-ops-node aria-pressed="false">
+              Inventory
+              <span>02</span>
+            </button>
+            <button class="ops-node" type="button" data-ops-node aria-pressed="false">
+              Fulfillment
+              <span>03</span>
+            </button>
+            <button class="ops-node" type="button" data-ops-node aria-pressed="false">
+              Quality check
+              <span>04</span>
+            </button>
+            <button class="ops-node" type="button" data-ops-node aria-pressed="false">
+              Carrier
+              <span>05</span>
+            </button>
+            <button class="ops-node" type="button" data-ops-node aria-pressed="false">
+              Customer
+              <span>06</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="obsession" aria-label="Customer-success">
+        <div class="wrap">
+          <p class="obsession-text">
+            Customer-success is our obsession, with dedicated account managers for every merchant
+            and industry-leading capabilities across temperature control, same-day delivery, FBA
+            prep, and much more.
+          </p>
+        </div>
+      </section>
+
+      <section class="close" aria-labelledby="close-title">
+        <div class="wrap">
+          <div class="close-grid">
+            <div>
+              <h2 class="close-title" id="close-title">Get a Quote</h2>
+              <a class="btn" href="get-a-quote/">Get a Quote</a>
+            </div>
+            <div>
+              <address>
+                <strong>Shipfront</strong>
+                1933 S. Broadway<br />
+                Los Angeles, CA 90007
+              </address>
+              <ul class="hours">
+                <li>Monday – Friday: 9 am – 5 pm</li>
+                <li>Saturday – Sunday: Appointment only</li>
+              </ul>
+              <p>
+                <a href="mailto:info@myshipfront.com">info@myshipfront.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-row">
+        <p>Built by David T Phung.</p>
+        <p><a href="./">Shipfront</a> · THE FLOW</p>
+      </div>
+    </footer>
+
+    <script src="js/flow.js" defer></script>
+  </body>
+</html>
